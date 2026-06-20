@@ -1,0 +1,24 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Core Layout Helpers */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+body{
+  background-color: black;
+}
